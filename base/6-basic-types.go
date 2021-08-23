@@ -1,11 +1,23 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math/cmplx"
+)
 
 // go 的基本类型
 // 语法点：变量的声明可以"分组"成一个语法块。
+var (
+	ToBe          = false
+	MaxInt uint64 = 1<<64 - 1
+	z             = cmplx.Sqrt(-5 + 12i)
+)
 
 func main() {
+	fmt.Println(ToBe)
+	fmt.Println(MaxInt)
+	fmt.Println(z)
+
 	// 布尔类型
 	var b bool
 	fmt.Println(b)
