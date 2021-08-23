@@ -50,8 +50,7 @@ func main() {
 	var f2 float64
 	fmt.Println(f1, f2)
 
-	// complex 类型
-	//TODO 中文不知道叫什么?科学记数法？
+	// complex 复数类型
 	var c1 complex64
 	fmt.Println(c1)
 
